@@ -63,9 +63,9 @@ function Home() {
                   {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
                   {/* <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a> */}
                   <h3 className="center-align-text-data">
-                    Upload camera Ready paper{" "}
+                    Submit the paper{" "}
                     <a
-                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+                      href=""
                       target="_blank"
                     >
                       CMT Login
@@ -75,7 +75,7 @@ function Home() {
                   <h3 className="center-align-text-data">
                     Registration Link{" "}
                     <a
-                      href="http://erp.sit.ac.in/external.aspx"
+                      href=""
                       target="_blank"
                     >
                       Fee Payment

@@ -20,7 +20,7 @@ function Contactus() {
               // initial={{y:"-9rem"}}
               className="contact-card-container contact1">
               <div className="contact-name">
-                <p>Dr. Vinayaka K U</p>
+                <p>Dr. Vinayaka K. U.</p>
               </div>
               <div className="contact-details">
                 <ul>
@@ -38,7 +38,7 @@ function Contactus() {
               // initial={{y:"-9rem"}} 
               className="contact-card-container contact2">
               <div className="contact-name">
-                <p>Dr. Madhu B M</p>
+                <p>Dr. Madhu B. M.</p>
               </div>
               <div className="contact-details">
                 <ul>

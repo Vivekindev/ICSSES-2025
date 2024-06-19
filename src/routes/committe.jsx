@@ -44,7 +44,7 @@ export default function committe() {
                         </div> */}
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={secretary} alt="secretary"/>
-                            <h2 className="main-patron-name">Shri T K Nanjundappa </h2>
+                            <h2 className="main-patron-name">Shri T. K. Nanjundappa </h2>
                             <h3 className="main-patron-designation">Honorary Secretary</h3>
                             <h5 className="main-patron-institute">Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</h5>
                         </div>
@@ -57,7 +57,7 @@ export default function committe() {
                         </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={director} alt="director"/>
-                            <h2 className="main-patron-name">Dr. M N Channabasappa</h2>
+                            <h2 className="main-patron-name">Dr. M. N. Channabasappa</h2>
                             <h3 className="main-patron-designation">Director</h3>
                             <h5 className="main-patron-institute">SIT, Tumakuru</h5>
                         </div>
@@ -71,7 +71,7 @@ export default function committe() {
             <div className="patron-cards-container">
                 <div className="main-patron-card">
                     <img className='main-patron-image' src={principal} alt="principal"/>
-                    <h2 className="main-patron-name">Dr. S V Dinesh</h2>
+                    <h2 className="main-patron-name">Dr. S. V. Dinesh</h2>
                     <h3 className="main-patron-designation">Principal</h3>
                     <h5 className="main-patron-institute">SIT, Tumakuru</h5>
                 </div>
@@ -162,14 +162,14 @@ export default function committe() {
                 <div className="patron-card">
                 {/* Dr. Mallikarjun B C */}
                 {/* Associate Professor, Dept. of ETE,  */}
-                    <h2 className="patron-name">Sridhara B. A.</h2>
+                    <h2 className="patron-name">Prof. Sridhara B. A.</h2>
                     <h3 className="patron-designation"> Associate Professor, Dept. of EEE, SIT, Tumakuru</h3>
                     <h5 className="patron-institute">Finance Chair</h5>
                 </div>
 
 
                 <div className="patron-card">
-                    <h2 className="patron-name">Naveen Kumar S. B.</h2>
+                    <h2 className="patron-name">Prof. Naveen Kumar S. B.</h2>
                     <h3 className="patron-designation">Assistant Professor, Dept. of EEE, SIT, Tumakuru </h3>
                     <h5 className="patron-institute">Finance Co-Chair</h5>
                 </div>
