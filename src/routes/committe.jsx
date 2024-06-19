@@ -174,7 +174,7 @@ export default function committe() {
                     <h5 className="patron-institute">Finance Co-Chair</h5>
                 </div>
 
-{/* Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru */}
+
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. Sridhar H. S.</h2>
                     <h3 className="patron-designation">Assistant Professor, Dept. of EEE, SIT, Tumakuru </h3>
