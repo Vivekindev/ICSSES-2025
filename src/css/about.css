@@ -1,0 +1,63 @@
+.about-page-main-container {
+    text-align: center;
+}
+
+.about-page-main-container .about-page-hero-container {
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url("../assets/images/v748-toon-61.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 10rem; */
+}
+
+.about-page-main-container .about-page-hero-container .about-page-heading-container {
+    /* width: 100%; */
+    height: 93.8vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page-main-container .about-page-hero-container .about-page-heading-container .about-us-heading {
+    font-size: 6rem;
+    margin: 5rem 0;
+    font-weight: 700;
+}
+
+.about-page-main-container .about-us-heading .about-highlight {
+    color: rgb(255, 153, 0);
+}
+
+.about-page-main-container .sit-image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.about-page-main-container .sit-image-container img {
+    width: 30rem;
+    height: 30rem;
+    z-index: 1;
+}
+
+.about-page-main-container .about-us-text-container {
+    background-color: rgba(228, 240, 243);
+    padding: 20rem 10rem 10rem 10rem;
+    margin: -20rem 10rem 5rem 10rem;
+}
+
+.about-page-main-container .about-us-text-container .about-us-text {
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.about-highlight {
+    font-size: 6rem;
+}
+
+.footer {
+    display: absolute;
+    bottom: 0px;
+}

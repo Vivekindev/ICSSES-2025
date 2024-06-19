@@ -1,0 +1,10 @@
+
+.previous-conf-bar {
+    height: 50px;
+    /* background-color: #fd5454; */
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2rem;
+    align-items: center;
+}

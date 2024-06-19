@@ -1,0 +1,161 @@
+.reg-info-part {
+  color: orange;
+  font-weight: 900;
+}
+
+.detailsShower {
+  margin:0 auto;
+  /* padding: 5rem 0; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 1rem;
+}
+
+.reg-info-heading,
+.reg-info-part {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.75rem;
+  padding: 4rem 0;
+  /* margin-left: 250px; */
+  /* margin-left: -8%; */
+
+}
+
+.reg-info-part {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.last-row {
+  margin-right: 100%;
+  border-right: none;
+}
+
+.text-head {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.f-aurth {
+  border-right: none;
+}
+
+.two-row-col-1 {
+  border-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.two-row-col-headless {
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.two-row-col-2 {
+  border-top: 0px;
+}
+
+table {
+  margin-left: 19%;
+  width: 55%;
+  border-radius: 5%;
+  height: 50%;
+
+}
+
+td {
+  empty-cells: hide;
+}
+
+.reg-table-details{
+  margin: 0 auto;
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 2.05rem;
+}
+
+.reg-table-details,
+th,
+td {
+  border: 1.6px solid rgb(43, 79, 105, 0.5);
+  border-collapse: collapse;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.col-head {
+  font-weight: bold;
+}
+
+.offline-head {
+  padding-top: 7rem;
+}
+
+.f-aurth-2 {
+  border: none;
+}
+
+th,
+td {
+  width: 250px;
+  height: 2.4rem;
+  text-align: center;
+}
+
+@media only screen and (max-width:702px) {
+
+  .detailsShower {
+    padding-top: 25%;
+  }
+
+}
+
+@media only screen and (max-width:340px) {
+
+  .detailsShower {
+    padding-top: 35%;
+  }
+
+}
+
+.register-here {
+  outline: none;
+  padding: 1rem;
+  height: 40px;
+  margin: 0 2rem;
+  margin-top: 0px;
+  margin-left: 2%;
+  border-radius: 0.5rem;
+  background-color: #EE0034;
+  color: white;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition-property: background-color color border;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 350ms;
+}
+
+.register-here:hover {
+  background-color: white;
+  color: #EE0034;
+  border: #EE0034 1.5px solid;
+}
+
+.reg-info-div {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.registration-tag {
+  margin: 10px;
+  margin-top: -3px;
+  margin-right: 0.3px;
+  font-weight: 600;
+  font-size: 3rem;
+}

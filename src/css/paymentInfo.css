@@ -1,0 +1,25 @@
+.payment-info-main-container {
+     background-image: url("../assets/images/v748-toon-61.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.form-name {
+     font-size: 3rem;
+     font-family: "poppins";
+}
+
+.details {
+     margin-left: 10px;
+}
+
+.google-form-main-container {
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 10rem;
+}
+
+.reg-step-details {
+     list-style: upper-roman;
+     margin: 2rem 5rem;
+}

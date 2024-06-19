@@ -1,0 +1,71 @@
+/* Display sizes
+
+125em   2000px
+75em    1200px
+62.5em  1000px
+50em    800px
+37.5em  600px
+25em    400px
+12.5em  200px 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 50%;
+}
+body{
+    /* font-size: 50%; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 55em) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media only screen and (max-width: 25em) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media only screen and (max-width: 12.5em) {
+    html {
+        font-size: 20%;
+    }
+}
