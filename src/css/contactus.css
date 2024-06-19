@@ -1,0 +1,143 @@
+.contact-page-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  min-height: 100vh;
+  text-align: center;
+}
+
+.contact-page-main-container .contact-page-hero-container{
+  width: 100%;
+  height: 93.5vh;
+  background-image: url("../assets/images/v748-toon-61.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-bottom: 10rem; */
+}
+
+.contact-page-main-container .contact-page-hero-container  .contact-page-heading-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-page-main-container .contact-page-hero-container .contact-page-heading-container .contact-us-heading{
+  font-size: 6rem;
+  margin: 5rem 0;
+  font-weight: 700;
+}
+.contact-highlight
+{
+  font-size: 6rem;
+}
+
+.contact-page-main-container .contact-us-heading .contact-highlight{
+  color: rgb(255, 153, 0);
+}
+
+.contact-page-main-container .sit-image-container{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-page-main-container .sit-image-container img{
+  width: 60rem;
+  height:60rem;
+  z-index: 1;
+}
+
+.contact-page-main-container .contact-us-text-container{
+  background-color: rgba(228,240,243,0.5);;
+  padding: 20rem 10rem 10rem 10rem;
+  margin:-20rem 10rem 5rem 10rem;
+}
+
+.contact-page-main-container .contact-us-text-container .contact-us-text{
+  font-style: italic;
+  font-size:2.5rem;
+}
+
+.contact-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  padding-top: 3rem;
+}
+
+.contact-wrapper .contact-containers{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fff; */
+  
+}
+.contact-containers .contact-card-wrappers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-card-wrappers .contact-card-container{
+  padding: 2rem 0  2rem 2.8rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 2px 5px 8px -3px rgba(0,0,0,0.1);
+  padding: 2rem 5rem;
+}
+.contact-name p{
+  font-family: "poppins";
+  font-size: 3.2rem;
+  /* margin-left: 6%; */
+  font-weight:600;
+
+}
+.asp 
+{
+    /* margin-left: 5%; */
+}
+.contact-name{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #F2A009;
+}
+.contact-card-container .contact-details ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+.contact-card-container .contact-details ul li{
+  /* width: 75%; */
+  padding: 0.5rem;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color:#474747;
+  letter-spacing: 0.07rem;
+}
+.contact1{
+  /* flex-grow: 1; */
+  align-self: normal;
+  flex-shrink:1;
+  margin: 1rem;
+  text-align: center;
+}
+.contact2{
+  /* flex-grow: 1; */
+  align-self: normal;
+  flex-shrink:1;
+  margin: 1rem;
+}
+
+.decor {
+  text-decoration: underline gold;
+}

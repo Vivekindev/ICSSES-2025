@@ -1,0 +1,83 @@
+.step {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+
+.head {
+    margin-top: 10%;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+
+.images,
+.step {
+    display: inline;
+    margin-left: 10%;
+}
+
+.images p {
+    font-family: "poppins";
+    font-size: 2.6rem;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.image {
+    width: 50%;
+    height: 60%;
+}
+
+.payment-step-details {
+    list-style: upper-roman;
+    margin: 2rem 5rem;
+}
+
+.step-detail {
+    font-family: 'lato', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: justify;
+    padding: 1rem 0;
+}
+
+.step-detail a {
+    margin-left: 10px;
+    font-size: 2.6rem;
+}
+
+.steps {
+    margin-bottom: 10rem;
+}
+
+.note {
+    font-family: "poppins";
+    background: rgb(255, 255, 132);
+    font-size: 2.6rem;
+}
+
+.payment-make-head {
+    padding: 5rem 0;
+    color: #F8669E;
+    font-weight: 800;
+    font-size:5rem;
+    text-align: center;
+}
+
+
+.payment-image-1 {
+    max-width: 80rem;
+    height: auto;
+    margin: 0 1rem;
+    object-fit: contain;
+}
+
+
+.payment-image-2 {
+    max-width: 50rem;
+    height: 60rem;
+    margin: 0 1rem;
+    object-fit: contain;
+}
