@@ -120,7 +120,7 @@ export default function Papersubmission() {
                 </div>  
                 <div className='footer'>
                     <MdOutlineCopyright className='copyright'/> 
-                    <h2>Copyrights by IEEE SIT SB</h2>
+                    <h2>2025 ICSSES (Last Updated: 19<sup>th</sup> Jun 2024)</h2>
                 </div>
             </div>
             

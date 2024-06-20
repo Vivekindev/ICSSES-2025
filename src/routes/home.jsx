@@ -9,7 +9,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg";
 import sitLogo from "../assets/images/sit-removebg-preview.png";
 import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
-import sitCampus from "../assets/images/1626788029037.jpg";
+import sitCampus from "../assets/images/SIT_ADMIN.jpg";
 // import Questions from '../pages/questions/questions';
 // import ImportantDetails from "../components/imp-details/imp-details";
 // import Contacts from '../routes/contact_card'
@@ -98,8 +98,7 @@ function Home() {
                  <br></br>
                  <br></br>
                  <br></br>
-                 <br></br>
-                 <br></br>
+
  </div>
               </div>
               <div>
@@ -424,7 +423,7 @@ function Home() {
 
       <div className="footer">
         <MdOutlineCopyright className="copyright" />
-        <h2>Copyrights by IEEE SIT SB</h2>
+        <h2>2025 ICSSES (Last Updated: 19<sup>th</sup> Jun 2024)</h2>
       </div>
     </div>
   );

@@ -215,6 +215,24 @@ export default function committe() {
                 
             <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
+                    <h3 className="committe-details"> Dr. Veena T., NIT Goa</h3>
+                    <h3 className="committe-details"> Dr. K. Jaya Sankar, MCET, Hyderabad </h3>
+                    <h3 className="committe-details"> Dr. RudraSwamy S. B., SJCE, Mysuru </h3>
+                    <h3 className="committe-details"> Dr. Sundara Rajan, CPRI, Bengaluru </h3>
+                    <h3 className="committe-details"> Dr. Shobha Shankar, VVCE, Mysuru </h3>
+                    <h3 className="committe-details"> Dr. Jayadevappa D., JSSATE, Bengaluru </h3>
+                    <h3 className="committe-details"> Dr. R. S. Geetha, BMSCE, Bengaluru </h3>
+                    <h3 className="committe-details"> Dr. Poornima B., BIET, Davanagere </h3>
+                    <h3 className="committe-details"> Dr. Nagesh Prabhu, Director (Curriculum Development) at<br></br> Nitte University Mangalore </h3>
+                    <h3 className="committe-details"> Dr. M. S. Suma, BMSCE, Bengaluru </h3>
+                    <h3 className="committe-details"> Dr. Dattatraya Narayan Gaonkar, NITK, Surathkal </h3>
+                    <h3 className="committe-details"> Dr. Sriram, MSRIT, Bengaluru </h3>
+                    <h3 className="committe-details"> Dr. Shyam Lal, NITK, Surathkal, Mangalore </h3>
+                    <h3 className="committe-details"> Dr. Amaresh P. Kandagal, Toshiba (India) Pvt. Ltd. </h3>
+                    <h3 className="committe-details"> Dr. Prasanna Kumar, RVCE, Bengaluru </h3>
+                    <h3 className="committe-details"> Mr. Sudheer T, TMEIC, Tumkur </h3>
+                    <br></br>
+                    <br></br>
                 {/* <h3 className="committe-details">Mr. Raghavendra Prasad, IEEE Execom Member Bengaluru Section</h3>
                 <h3 className="committe-details">Mr. Ravi Hosamani,  IEEE Execom Member Bengaluru Section</h3>
                 <h3 className="committe-details">Dr. Dileep A D, IIT Mandi</h3>
@@ -243,28 +261,28 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Leena Mary, RGIT, Kottayam</h3>
                 <h3 className="committe-details">Dr. Nagarajan T, SSNCE, Chennai</h3>
                 <h3 className="committe-details">Dr. Aravind B N, RIT, Hassan</h3>
-                <h3 className="committe-details">Dr. Vikram C M, Samsung, Bengaluru</h3> */}
+                <h3 className="committe-details">Dr. Vikram C M, Samsung, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Veena S, NAL, Bengaluru</h3>
                 <h3 className="committe-details">Dr. K. Jaya Sankar, MCET, Hyderabad</h3>
                 <h3 className="committe-details">Dr. John William CM, MCET, Hyderabad </h3>
                 <h3 className="committe-details">Dr. Sundara Rajan, CPRI, Bengaluru</h3>
-                {/* <h3 className="committe-details">Dr. Srikanth P C., MCE, Hassan</h3> */}
+                 <h3 className="committe-details">Dr. Srikanth P C., MCE, Hassan</h3> 
                 <h3 className="committe-details">Dr. B V Sumangala, MSRIT, Bengaluru</h3>
-                {/* <h3 className="committe-details">Dr. Madhavi M, PESITM, Shimoga</h3> */}
+                {/* <h3 className="committe-details">Dr. Madhavi M, PESITM, Shimoga</h3> 
                 <h3 className="committe-details">Dr. Jayadevappa D, JSSATE, Bengaluru</h3>
                 <h3 className="committe-details">Dr. R S Geetha, BMSCE, Bengaluru</h3>
-                {/* <h3 className="committe-details">Dr. Sathyanarayana S V., JNNCE, Shimoga</h3>
+                 <h3 className="committe-details">Dr. Sathyanarayana S V., JNNCE, Shimoga</h3>
                 <h3 className="committe-details">Dr. Lakshmi Shrinivasan, MSRIT, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Jayashri Kulkarni, VIIT, Kondhawa</h3>
             <h3 className="committe-details">Dr. Yashvanth N, MIT, Manipal</h3> */}
                 {/* <h3 className="committe-details">Dr. R Kalpana, BMSCE, Bengaluru</h3> */}
-                <h3 className='committe-details'>Dr. Poornima B, BIET, Davanagere</h3>
+               {/* <h3 className='committe-details'>Dr. Poornima B, BIET, Davanagere</h3>
                 <h3 className='committe-details'>Dr. Udayshankara V, JSS University, Mysuru</h3>
                 <h3 className="committe-details">Dr. M S Suma, BMSCE, Bengaluru</h3>
-                {/* <h3 className="committe-details">Mr. Chandrashekar Patil, Cisco Pvt. Ltd., Bengaluru</h3> */}
+                {/* <h3 className="committe-details">Mr. Chandrashekar Patil, Cisco Pvt. Ltd., Bengaluru</h3> 
                 <h3 className="committe-details">Dr. Meharunnisa S P, DSCE, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Sriram, MSRIT, Bengaluru</h3>
-                <h3 className="committe-details">Dr. K Vijayalakshmi, BMSCE, Bengaluru</h3>
+                <h3 className="committe-details">Dr. K Vijayalakshmi, BMSCE, Bengaluru</h3>*/}
                 {/* <h3 className="committe-details">Dr. Srinivasa Rao Inabathini, VIT, Vellore</h3>
                 <h3 className="committe-details">Dr. S S Kerur, SDMCET, Dharwad</h3>
                 <h3 className="committe-details">Dr. Nagamani K, RVCE, Bengaluru</h3>
@@ -349,7 +367,7 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Premananda B S, RVCE, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Radhakrishna Bhat, Manipal Institute of Technology, Manipal</h3> */}
                 {/* <h3 className="committee-details">Raghavendra Prasad, R V College of Engineering Bengaluru</h3> */}
-                <h3 className="committe-details">Dr. Rajeshwari Hegde, BMSCE, Bengaluru</h3>
+                {/*<h3 className="committe-details">Dr. Rajeshwari Hegde, BMSCE, Bengaluru</h3>*/}
                 {/* <h3 className="committe-details">Dr. Rajeshwari Siddarameswara, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. Renu Madhavi C H, RVCE, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Renukalatha, SSIT, Tumakuru</h3>
@@ -367,15 +385,15 @@ export default function committe() {
             <h3 className="committe-details">Dr. Vijayalakshmi K, BMSCE, Bengaluru</h3> */}
                 {/* <h3 className="committee-details">Vikram C M, Arizona State University</h3> */}
                 {/* <h3 className="committe-details">Dr. Vishalakshi Prabhu, RVCE, Bengaluru</h3> */}
-                <h3 className="committe-details">Dr. Shyam Lal, NITK, Surathkal, Mangalore</h3>
-                <h3 className="committe-details">Dr. Amaresh P Kandagal, Toshiba (India) Pvt. Ltd.</h3>
+                {/*<h3 className="committe-details">Dr. Shyam Lal, NITK, Surathkal, Mangalore</h3>*/}
+                {/*<h3 className="committe-details">Dr. Amaresh P Kandagal, Toshiba (India) Pvt. Ltd.</h3>*/}
                 </div>
                 </div>
             </div>
         </div>
         <div className='footer'>
             <MdOutlineCopyright className='copyright'/> 
-            <h2>Copyrights by IEEE SIT SB</h2>
+            <h2>2025 ICSSES (Last Updated: 19<sup>th</sup> Jun 2024)</h2>
         </div>
     </section>
   )

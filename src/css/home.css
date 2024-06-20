@@ -309,6 +309,7 @@ body {
 
 .sit-image-container {
     /* flex: 1 1 80%; */
+    width: 50%;
     padding: 2rem 1rem;
 }
 
@@ -804,6 +805,10 @@ body {
 }
 
 @media only screen and (max-width:768px) {
+
+    .sit-image-container{
+        width: 100%;
+    }
     .h_sit-logo-wrapper{
         width: 30%;
     }
