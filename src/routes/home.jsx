@@ -82,27 +82,13 @@ function Home() {
                     </a>
                     .
                   </h3>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>               
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
+             
+
 
  </div>
               </div>
               <div>
-              <div className="home-confrence-type-marquee-container">
+              <div className="home-confrence-type-marquee-container-bottom">
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 
                   <h3>

@@ -85,14 +85,13 @@ export default function committe() {
                 <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
                     <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. H K E Latha, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. H M Kalpana, Professor Dept. of EIE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. Siddeswara Prasad, Professor, Dept. of EIT, SIT, Tumakuru</h3>
-                    
+                    <h3 className="committe-details">Dr. H. K. E. Latha, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H. M. Kalpana, Professor  Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K. V. Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K. Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. R. Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K. C. Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. Siddeswara Prasad V., Professor, Dept. of EIE, SIT, Tumakuru</h3>
                     </div>
                 </div>
             </div>
@@ -189,26 +188,26 @@ export default function committe() {
 
             </div>
         </div>
-
+{/*
         <div className="patrons-container">
             <h1 className="patrons-heading">Organizing Committee</h1>
             <div className="committe-container">
                 <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
                     <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. H K E Latha, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. H M Kalpana, Professor  Dept. of EIE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H. K. E. Latha, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H. M. Kalpana, Professor  Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K. V. Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K. Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. R. Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K. C. Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. Siddeswara Prasad V., Professor, Dept. of EIE, SIT, Tumakuru</h3>
                     
                     </div>
                 </div>
             </div>
         </div>
-
+*/}
         <div className="patrons-container">
             <h1 className="patrons-heading">Technical Program Committee</h1>
             <div className="committe-container">
