@@ -1,3 +1,40 @@
+/* Basic reset for button */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for formal button */
+.formal-button {
+    margin-left: 2rem;
+    background-color: #F2A109; /* Orange background */
+    color: white; /* White text */
+    border: 1px solid #F2A109; /* Border matching the background */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    border-radius: 4px; /* Slightly rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.formal-button:hover {
+    background-color: #D18B08; /* Darker orange on hover */
+    border-color: #D18B08; /* Matching border color on hover */
+}
+
+.formal-button:active {
+    background-color: #B07506; /* Even darker orange on click */
+    border-color: #B07506; /* Matching border color on click */
+}
+
+.formal-button:focus {
+    box-shadow: 0 0 0 3px rgba(242, 161, 9, 0.25); /* Focus ring */
+}
+
 .home_hero-container {
     background-image: url("../assets//images/rm380-16.jpg");
     width: 100%;
@@ -420,7 +457,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    width: 120rem;
 }
 
 .about-conf-heading {
@@ -842,6 +880,13 @@ body {
 
 @media only screen and (max-width:768px) {
 
+    .formal-button {
+    margin-left: 0;
+    }
+    .conf-para-container .confrence-para-1,
+.conf-para-container .confrence-para-2{
+    width: fit-content;
+}
     .sit-image-container{
         width: 100%;
     }

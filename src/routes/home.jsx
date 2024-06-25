@@ -68,19 +68,19 @@ function Home() {
                       href=""
                       target="_blank"
                     >
-                      CMT Login
+                      <button className="formal-button" style={{width:"18rem"}}>CMT Login</button>
                     </a>
-                    .
+                    
                   </h3>
                   <h3 className="center-align-text-data">
-                    Registration Link{" "}
+                    Registration Link{" "} &nbsp;
                     <a
                       href=""
                       target="_blank"
                     >
-                      Fee Payment
+                      <button className="formal-button" style={{width:"18rem"}}>Fee Payment</button>
                     </a>
-                    .
+                    
                   </h3>
              
 
@@ -366,6 +366,34 @@ function Home() {
         </div>
       </div>
 
+     
+      <div className="about-the-confenrence-wrapper">
+        <div className="about-the-confenrence-container" style={{marginTop:"5rem"}}>
+          <div className="about-conf-heading">
+            <h2>Previous Conferences</h2>
+          </div>
+          {/* <div className="conf-url">
+                <a href="">ICSSES is listed in the IEEE Conference Search/Call for Papers: </a>
+              </div> */}
+          <div className="conf-para-container">
+            <div className="confrence-para-1">
+              <p>
+                1<sup>st</sup> International Conference on Smart systems for
+                applications in Electrical Sciences 2023 <a href="https://ieeexplore.ieee.org/xpl/conhome/10199115/proceeding"><button className="formal-button">Click Here</button></a>
+              </p>
+            </div>
+            <div className="confrence-para-2">
+            <p>
+                2<sup>nd</sup> International Conference on Smart systems for
+                applications in Electrical Sciences 2024<a href="https://ieeexplore.ieee.org/xpl/conhome/10560480/proceeding"><button className="formal-button">Click Here</button></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       <div className="important-dates-container">
         <div className="imp-dates-details">
           <div className="imp-date-heading">
@@ -373,11 +401,11 @@ function Home() {
           </div>
           <ul>
             <li>
-              Submission Portal Opens: 1<sup>st</sup> November 2024
+              Submission Portal Opens: 1<sup>st</sup> October 2024
             </li>
             {/* <li>Full Paper Submission Deadline: 17th May 2024<span className='hard-dline'> Hard Deadline</span></li> */}
             <li>
-              Full Paper Submission Deadline:{" "} 15<sup>th</sup> January 2025
+              Full Paper Submission Deadline:{" "} 31<sup>st</sup> December 2024
               
             </li>
             {/* <li>Full Paper Submission Deadline: 3<sup>rd</sup> Feburary 2024</li> */}
@@ -395,7 +423,7 @@ function Home() {
               Payment and Registration Deadline : 26<sup>th</sup> February 2025{" "}
             </li>
             <li>
-              Conference dates: 7<sup>th</sup>& 8<sup>th</sup> MARCH 2025
+              Conference dates: 7<sup>th</sup>& 8<sup>th</sup> March 2025
             </li>
           </ul>
           {/* Photos section for previous years */}
@@ -409,7 +437,7 @@ function Home() {
 
       <div className="footer">
         <MdOutlineCopyright className="copyright" />
-        <h2>2025 ICSSES (Last Updated: 19<sup>th</sup> Jun 2024)</h2>
+        <h2>2025 ICSSES (Last Updated: 25<sup>th</sup> Jun 2024)</h2>
       </div>
     </div>
   );

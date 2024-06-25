@@ -106,19 +106,24 @@ export default function committe() {
                 
             <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
-                 {/* <h3 className="committe-details">Dr. Deepa Shenoy, IEEE Chair Bengaluru Section</h3>  */}
-                <h3 className="committe-details">Dr. Michael G. Danikas, Democritus University of Thrace, Xanthi</h3>
+               
+                {/*<h3 className="committe-details">Dr. Michael G. Danikas, Democritus University of Thrace, Xanthi</h3>*/}
+                <h3 className="committe-details">Dr. SanjeeviKumar Padmanaban, University of South-Eastern Norway</h3>
                 <h3 className="committe-details">Dr. Raji Sundarajan, Purdue University, West Lafayette</h3>
                 <h3 className="committe-details">Dr. Suresh Jangamashetty, Vice Chancellor, Haveri University, Haveri</h3>
                 <h3 className="committe-details">Dr. S. R. Mahadeva Prasanna, IIT Dharwad</h3>
                 <h3 className="committe-details">Dr. Arun Mahendrakar, IIT Madras</h3>
-                <h3 className="committe-details">Dr. T. Sreenivas, IISc Bengaluru</h3>
+                <h3 className="committe-details">Dr. Deepa Shenoy, ex-WIE Chair, IEEE Bengaluru Section</h3>
+ 
+                <h3 className="committe-details">Dr. Dr. Abhishek Appaji M, Treasurer, IEEE Bangalore Section</h3>
                 <h3 className="committe-details">Dr. Shyam Vasudevarao, Renalyx, Bengaluru</h3>
+                <h3 className="committe-details">Dr. Veena S, NAL, Bengaluru</h3>
+                <h3 className="committe-details">Dr. Dheeraj Joshi, Delhi Technological University, Delhi</h3>
                 <h3 className="committe-details">Dr. Nirmalya Ghosh Discovary Institute, La Jolla, CA, USA </h3>
-                <h3 className="committe-details">Dr. R. C. Saritha, Associate Director, Bengaluru</h3>
+               {/* <h3 className="committe-details">Dr. R. C. Saritha, Associate Director, Bengaluru</h3>*/}
                 <h3 className="committe-details">Dr. A. Uday Kumar, NAL, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Anandhi Giridharan, IISC, Bangalore</h3>
-                <h3 className="committe-details">Dr. K. Sivakumar, IIT, Hyderabad</h3>
+                <h3 className="committe-details">Dr. Akthar Kalam, Victoria University, Melbourne, Australia</h3>
                 <h3 className="committe-details">Dr. Vittal Prabhu, Penn State University, USA</h3>
                 <h3 className="committe-details">Dr. Mohan Kolhe, University of Agder, Norway</h3>
                 </div>
@@ -392,7 +397,7 @@ export default function committe() {
         </div>
         <div className='footer'>
             <MdOutlineCopyright className='copyright'/> 
-            <h2>2025 ICSSES (Last Updated: 19<sup>th</sup> Jun 2024)</h2>
+            <h2>2025 ICSSES (Last Updated: 25<sup>th</sup> Jun 2024)</h2>
         </div>
     </section>
   )
