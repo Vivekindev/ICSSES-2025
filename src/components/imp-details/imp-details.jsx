@@ -48,8 +48,11 @@ export default function ImpDetails() {
         //         </div>
         //     </div>
             <div className="imp-page-buttons">
+                <a href="http://erp.sit.ac.in/external.aspx" target="_blank" rel="noreferrer">
+                  <center>  <button className='download-btn'>Payment Website</button></center>
+                </a>
                 <a href="https://drive.google.com/drive/folders/1IfgNpVPjQy-8mxVhlQnPVuZebkVF5ODJ?usp=sharing" target="_blank" rel="noreferrer">
-                    <button className='download-btn'>CONFIRMED REGISTRATIONS</button>
+                  <center>  <button className='download-btn' style={{background:'#03C03C'}}>Confirmed Registrations</button></center>
                 </a>
             
                 {/* <a href={downloadPDFToBeConfirm} download="Example-PDF-document" target="_blank" rel="noreferrer">

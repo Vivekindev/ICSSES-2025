@@ -8,6 +8,8 @@ import Registration from './routes/registration';
 import CallForPapers from './routes/callForPapers';
 import PaymentInfo from './routes/paymentInfo';
 import Photos from './routes/photos';
+import GuidelinesInfo from './routes/GuidelinesInfo'
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,8 @@ function App() {
         <Route path='/call-for-papers' element={<CallForPapers/>}/>
         <Route path='/Registration' element={<Registration/>}/>
         <Route path='/Contact-us' element={<Contactus/>}/>
-        <Route path='/register-here' element={<PaymentInfo/>}/>
+        {/* <Route path='/register-here' element={<PaymentInfo/>}/> */}
+        <Route path='/guidelines' element={<GuidelinesInfo/>}/>
         <Route path='/photos' element={<Photos/>} />
         <Route path='/*' element={<Home/>}/>
       </Routes>

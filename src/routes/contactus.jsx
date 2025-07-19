@@ -28,7 +28,7 @@ function Contactus() {
                   <li>Dept. of EEE</li>
                   <li>SIT, Tumkur</li>
                   <li className='decor asp'>+91 9538539591</li>
-                  <li className='decor asp'>icsses@sit.ac.in</li>
+                  <li className='decor asp'>vinayaka@sit.ac.in</li>
                 </ul>
               </div>
             </motion.div>
@@ -60,7 +60,7 @@ function Contactus() {
       </div>
       <div className='footer'>
         <MdOutlineCopyright className='copyright' />
-        <h2>2025 ICSSES (Last Updated: 25<sup>th</sup> Jun 2024)</h2>
+        <h2>2025 ICSSES (Last Updated: 10<sup>th</sup> Feb 2025)</h2>
       </div>
     </section>
   )

@@ -1,0 +1,128 @@
+/* Main container styling */
+
+.pay-info-main-container {
+    background-image: url("../assets/images/v748-toon-61.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    position: relative;
+    color: #ffffff;
+}
+
+/* Overlay effect for better text contrast */
+.pay-info-main-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* darkens the background */
+    z-index: -1;
+}
+
+/* General text styling */
+body, h1, h2, p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.pay-info-form-name {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/* Details section with padding and positioning */
+.pay-info-details {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+}
+
+/* Google form section */
+.pay-info-google-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6); /* adds transparency for text clarity */
+    margin: 2rem auto;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 90%;
+}
+
+.pay-info-payment-head {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #f0f0f0;
+}
+
+/* Step details styling */
+.pay-info-step-details {
+    list-style-type: upper-roman;
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 80%;
+}
+
+.pay-info-step-details li {
+    margin-bottom: 0.8rem;
+}
+
+/* Anchor links within the steps */
+.pay-info-step-details a {
+    color: #00b4d8;
+    text-decoration: underline;
+}
+
+.pay-info-step-details a:hover {
+    color: #90e0ef;
+}
+
+/* Footer styling */
+.pay-info-footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.pay-info-copyright {
+    margin-right: 0.5rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .pay-info-form-name {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .pay-info-google-form-container {
+        padding: 1rem;
+    }
+
+    .pay-info-step-details {
+        width: 100%;
+    }
+
+    .pay-info-footer {
+        padding: 0.5rem;
+    }
+}

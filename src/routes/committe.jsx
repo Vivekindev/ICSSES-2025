@@ -397,7 +397,7 @@ export default function committe() {
         </div>
         <div className='footer'>
             <MdOutlineCopyright className='copyright'/> 
-            <h2>2025 ICSSES (Last Updated: 25<sup>th</sup> Jun 2024)</h2>
+            <h2>2025 ICSSES (Last Updated: 10<sup>th</sup> Feb 2025)</h2>
         </div>
     </section>
   )

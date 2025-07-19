@@ -1,83 +1,117 @@
-.step {
+.checkbox-container {
+    margin: 20px 0;
     display: flex;
-    flex-direction: row;
-    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
 }
 
-.head {
-    margin-top: 10%;
-    font-family: "poppins";
+.checkbox-container label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Makes the checkbox slightly bigger */
+    cursor: pointer;
+}
+
+.download-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+/* Main container styling */
+.registration-form-container {
+    display: flex;
+   margin-top: 2rem;
+    align-items: center;
+    min-height: 100vh;
+ justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.content-wrapper {
+    margin-bottom: 1rem;
+    background-color: #fff;
+    padding: 3rem 4rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 900px; /* Increased container width slightly */
+    width: 100%;
+}
+
+/* Header styling */
+.payment-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem; /* Larger font size */
     font-weight: 600;
-    font-size: 3rem;
-
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #F2A109;
+    padding-bottom: 1rem;
 }
 
-.images,
-.step {
-    display: inline;
-    margin-left: 10%;
-}
-
-.images p {
-    font-family: "poppins";
-    font-size: 2.6rem;
-    margin-top: 10px;
-    margin-left: 1px;
-}
-
-.image {
-    width: 50%;
-    height: 60%;
-}
-
+/* Payment steps styling */
 .payment-step-details {
-    list-style: upper-roman;
-    margin: 2rem 5rem;
+    list-style-type: decimal;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75rem; /* Larger font size */
+    color: #555;
+    line-height: 1.8;
+    margin-left: 1rem;
+    padding-left: 0;
 }
 
 .step-detail {
-    font-family: 'lato', sans-serif;
-    font-size: 2.25rem;
-    font-weight: 600;
-    text-align: justify;
-    padding: 1rem 0;
+    margin-bottom: 2rem; /* Increased margin for spacing */
 }
 
 .step-detail a {
-    margin-left: 10px;
-    font-size: 2.6rem;
+    color: #00b4d8;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.75rem; /* Increased font size */
 }
 
-.steps {
-    margin-bottom: 10rem;
+.step-detail a:hover {
+    text-decoration: underline;
+    color: #0077a5;
 }
 
-.note {
-    font-family: "poppins";
-    background: rgb(255, 255, 132);
-    font-size: 2.6rem;
+/* Important Details section */
+.content-wrapper .important-details {
+    margin-top: 2rem;
+    background-color: #f9fbfd;
+    padding: 2rem; /* Increased padding */
+    border-left: 4px solid #00b4d8;
+    border-radius: 8px;
+    font-size: 1.75rem; /* Larger font size */
 }
 
-.payment-make-head {
-    padding: 5rem 0;
-    color: #F8669E;
-    font-weight: 800;
-    font-size:5rem;
-    text-align: center;
-}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 2rem;
+    }
 
+    .payment-header {
+        font-size: 2.75rem; /* Adjusted for mobile */
+    }
 
-.payment-image-1 {
-    max-width: 80rem;
-    height: auto;
-    margin: 0 1rem;
-    object-fit: contain;
-}
+    .payment-step-details {
+        font-size: 1.5rem; /* Adjusted for mobile */
+    }
 
+    .step-detail a {
+        font-size: 1.5rem; /* Adjusted for mobile */
+    }
 
-.payment-image-2 {
-    max-width: 50rem;
-    height: 60rem;
-    margin: 0 1rem;
-    object-fit: contain;
+    .important-details {
+        font-size: 1.5rem; /* Adjusted for mobile */
+    }
 }

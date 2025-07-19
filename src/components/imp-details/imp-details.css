@@ -1,4 +1,9 @@
-
+.imp-page-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .imp-details-confenrence-container{
     width: 80%;
     display: flex;
@@ -49,7 +54,7 @@
     padding: 1rem;
     margin: 0 2rem;
     border-radius: 0.5rem;
-    background-color: #EE0034;
+    background-color: #F2A109;
     color: white;
     border: none;
     font-weight: 500;
@@ -57,12 +62,9 @@
     transition-property: background-color color border;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-duration: 350ms;
+    width: 35rem;
 }
-.download-btn:hover {
-    background-color: white;
-    color: #EE0034;
-    border: #EE0034 1.5px solid;
-  }
+
   .no-show
   {
     display: none;

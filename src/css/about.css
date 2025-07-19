@@ -43,15 +43,43 @@
 }
 
 .about-page-main-container .about-us-text-container {
+    
     background-color: rgba(228, 240, 243);
     padding: 20rem 10rem 10rem 10rem;
     margin: -20rem 10rem 5rem 10rem;
+    overflow-y: auto; /* Enables vertical scrolling */
 }
+
 
 .about-page-main-container .about-us-text-container .about-us-text {
     font-style: italic;
     font-size: 2.5rem;
 }
+
+/* Optimizations for mobile view */
+@media (max-width: 768px) {
+    .about-page-main-container .about-us-text-container {
+        padding: 7rem 1rem 5rem 1rem; /* Keep padding the same */
+        margin: -10rem 4rem 4rem 4rem; /* Increase the margin */
+    }
+
+    .about-page-main-container .about-us-text-container .about-us-text {
+        font-size: 2.5rem; /* Keep the font size the same */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-page-main-container .about-us-text-container {
+        padding: 7rem 1rem 5rem 1rem; /* Keep padding the same */
+        margin: -7rem 2rem 2rem 2rem; /* Increase the margin for smaller devices */
+    }
+
+    .about-page-main-container .about-us-text-container .about-us-text {
+        font-size: 2.2rem; /* Keep the font size the same */
+    }
+}
+
+
 
 .about-highlight {
     font-size: 6rem;

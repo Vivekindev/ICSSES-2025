@@ -3,6 +3,7 @@ import "../css/home.css";
 // import {styles} from 'react'
 import { motion } from "framer-motion";
 import Navabar from "../components/navbar/navabar";
+import {NavLink} from "react-router-dom"
 import Marquee from "react-fast-marquee";
 import { BsCalendarCheck } from "react-icons/bs";
 import { MdOutlineCopyright } from "react-icons/md";
@@ -26,7 +27,7 @@ function Home() {
             <div className="home_conference-details-container">
               <div className="home-confrence-type-marquee-container">
                 <Marquee gradient={false} speed={50} pauseOnHover={true}>
-                    <h3></h3>
+                    <h3>The conference dates have been rescheduled to March 21st & 22nd, 2025.</h3>
                    
                 </Marquee>
               </div>
@@ -56,36 +57,29 @@ function Home() {
                 <div className="home_date-container">
                   <BsCalendarCheck className="calender-icon" />
                   <p>
-                    7<sup>th</sup> & 8<sup>th</sup> March, 2025
+                    21<sup>st</sup> & 22<sup>nd</sup> March, 2025
                   </p>
                 </div>
                 <div className="web-link">
-                  {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
-                  {/* <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a> */}
-                  <h3 className="center-align-text-data">
-                    Submit the paper{" "}
-                    <a
-                      href=""
-                      target="_blank"
-                    >
-                      <button className="formal-button" style={{width:"18rem"}}>CMT Login</button>
-                    </a>
-                    
-                  </h3>
-                  <h3 className="center-align-text-data">
-                    Registration Link{" "} &nbsp;
-                    <a
-                      href=""
-                      target="_blank"
-                    >
-                      <button className="formal-button" style={{width:"18rem"}}>Fee Payment</button>
-                    </a>
-                    
-                  </h3>
-             
+  {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
+  {/* <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a> */}
+  
+  <h3 className="center-align-text-data">
+    Submit the paper{" "}
+    <NavLink to='/guidelines'>
+    <button className="formal-button" style={{ width: "18rem" }}>CMT Login</button>
+    </NavLink>
+  </h3>
 
+  <h3 className="center-align-text-data">
+    Registration Link{""} &nbsp;
+    <NavLink to='http://erp.sit.ac.in/external.aspx'>
+      <button className="formal-button" style={{ width: "18rem" }}>Fee Payment</button>
+      </NavLink>
+  </h3>
 
- </div>
+</div>
+
               </div>
               <div>
               <div className="home-confrence-type-marquee-container-bottom">
@@ -405,25 +399,25 @@ function Home() {
             </li>
             {/* <li>Full Paper Submission Deadline: 17th May 2024<span className='hard-dline'> Hard Deadline</span></li> */}
             <li>
-              Full Paper Submission Deadline:{" "} 31<sup>st</sup> December 2024
+              Full Paper Submission Deadline:{" "}<s> 31<sup>st</sup> December 2024 </s> <b>  &nbsp; 20<sup>th</sup> January 2025</b>
               
             </li>
             {/* <li>Full Paper Submission Deadline: 3<sup>rd</sup> Feburary 2024</li> */}
             {/* <li className='reg-details'>Full Paper Submission Deadline:  <span className='animate-notify'> Extended to 18<sup>th</sup> Feburary 2024 </span> </li> */}
             {/* <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 3<sup>rd</sup> March 2024</li> */}
             <li>
-              Acceptance/Rejection Notification : 18<sup>th</sup> February 2025
+              Acceptance/Rejection Notification : 28<sup>th</sup> February 2025
             </li>
             {/* <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 3<sup>rd</sup> April 2024</li> */}
             <li>
-              Submission of camera ready paper : 22<sup>nd</sup>  February 2025
+              Submission of camera ready paper : 05<sup>th</sup>  March 2025
             </li>
             {/* <li>Payment and Registration Deadline : 14<sup>th</sup> June 2024<span className='hard-dline'> Hard Deadline</span></li> */}
             <li>
-              Payment and Registration Deadline : 26<sup>th</sup> February 2025{" "}
+              Payment and Registration Deadline : 08<sup>th</sup> March 2025{" "}
             </li>
             <li>
-              Conference dates: 7<sup>th</sup>& 8<sup>th</sup> March 2025
+              Conference dates: 21<sup>st</sup>& 22<sup>nd</sup> March 2025
             </li>
           </ul>
           {/* Photos section for previous years */}
@@ -437,7 +431,7 @@ function Home() {
 
       <div className="footer">
         <MdOutlineCopyright className="copyright" />
-        <h2>2025 ICSSES (Last Updated: 25<sup>th</sup> Jun 2024)</h2>
+        <h2>2025 ICSSES (Last Updated: 10<sup>th</sup> Feb 2025)</h2>
       </div>
     </div>
   );
